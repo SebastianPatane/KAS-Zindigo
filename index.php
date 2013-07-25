@@ -24,8 +24,14 @@
     <!-- Home Page Content -->
 	<div class="row home-grid">
 		<div class="large-6 columns">
-		  	<div class="home-title"><h1>Shop</h1></div>
-        	<a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a>
+        	
+		  	<div class="home-title orbit-hack"><h1>Shop</h1></div>
+        	<div class="preloader"></div>
+          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false">
+                <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>
+                <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>
+                <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>
+          	</ul>
             
           	<div class="home-title no-margin"><h1>Quotes</h1></div>
         	<a href="quotes.php"><img src="img/home-quotes-img.jpg" alt="Quotes"></a>
@@ -33,15 +39,15 @@
         
         <div class="large-3 columns">
 		  	<div class="home-title"><h1>Press</h1></div>
-        	<a href="#"><img src="img/home-press-img.jpg" alt="Press"></a>
+        	<a href="press.php"><img src="img/home-press-img.jpg" alt="Press"></a>
             
           	<div class="home-title"><h1>Trend Reports</h1></div>
-        	<a href="#"><img src="img/home-trend-img.jpg" alt="Trend Reports"></a>
+        	<a href="trendsettings.php"><img src="img/home-trend-img.jpg" alt="Trend Reports"></a>
 		</div>
         
         <div class="large-3 columns">
        	  	<div class="home-title"><h1>Who is KAS</h1></div>
-        	<a href="#"><img src="img/home-kas-img.jpg" alt="Who is KAS"></a>
+        	<a href="who-is.php"><img src="img/home-kas-img.jpg" alt="Who is KAS"></a>
 		</div>
 	</div>
     <!-- /Home Page Content -->
@@ -60,6 +66,7 @@
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
     
   <script>
     $(document).foundation();

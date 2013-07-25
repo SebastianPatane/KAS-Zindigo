@@ -38,7 +38,7 @@
                               <h1>Abagail</h1>
                               <p>Lorem ipsum sit dolor amet quid after illus at bullet fallet Lorem ipsum sit dolor amet quid after illus at bullet fallet.</p>
                               <div class="row collapse">
-                              		<div class="large-6 small-6 columns text-left"><strong>$1,295</strong></div>
+                              		<div class="large-6 small-6 columns text-left"><p><strong>$1,295</strong></p></div>
                                     <div class="large-6 small-6 columns text-right">FB Like Button</div>
                               </div>      
                               <a href="shop-detail.php">More Info</a>
@@ -140,6 +140,7 @@
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
     
   <script>
     $(document).foundation();

@@ -55,6 +55,10 @@ h3 {
 	text-transform:uppercase;
 }
 
+ul li {
+	list-style-type:none;
+}
+
 .orbit-container {
 	background:none;
 }
@@ -124,7 +128,25 @@ h3 {
 
 /* HEADER SETTINGS
    ----------------------------- */
+.mobile-your-cart {
+	position:absolute;
+	top:0px;
+	left:140px;
+	height:45px;
+	line-height:45px;
+	z-index:101;
+	color:#fff;
+	font-size:14px;
+	font-weight:400;
+	padding:0px 10px 0px 10px;
+	border-left:2px solid #333;
+	border-right:2px solid #333;
+}
 
+.mobile-your-cart:hover {
+	color:#fff;
+	background:#1B1B1B;
+}
 
 /* HOME CONTENT SETTINGS
    ----------------------------- */
@@ -134,9 +156,15 @@ h3 {
 	display:block;
 	background:#000;
 	opacity:0.8;
-	z-index:100;
 	margin-bottom:-40px;
 	width:auto;
+}
+
+.home-grid .home-title.orbit-hack {
+	position: absolute;
+	display: inline-table;
+	width: 100%;
+	z-index:98;
 }
 
 .home-grid .home-title.no-margin {
@@ -194,6 +222,7 @@ footer ul.social-links li a {
 	display: inline-block;
 	text-indent: -99999px;
 	color: transparent;
+	overflow: hidden;
 }
 
 footer ul.social-links li a.facebook {
@@ -365,6 +394,10 @@ span.corporate  {
 .f-dropdown.content p {
 	text-align:left;
 	font-size:11px;
+}
+
+.f-dropdown.content p strong {
+	font-size:13px;
 }
 
 .f-dropdown.content a {
@@ -594,6 +627,7 @@ a.sizes-guide {
 	height:24px;
 	display:block;
 	text-indent:9999px;
+	overflow: hidden;
 }
 
 .shop-share-links ul li a.facebook {
@@ -614,6 +648,92 @@ a.sizes-guide {
 .trendsetting-content {
 	background:#fff;
 }
+
+
+/* WHAT INSPIRE US SETTINGS
+   ----------------------------- */
+   
+.inspire-content {
+	background:#fff;
+}
+
+.box {
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	float:left;
+	margin:0px 10px 10px 0px;
+}
+
+.size-200x140 {
+	width: 200px;
+	height: 140px;
+}
+
+.size-245x148 {
+	width: 245px;
+	height: 148px;
+}
+
+.size-212x247 {
+	width: 212px;
+	height: 247px;
+}
+
+.size-424x365 {
+	width: 424px;
+	height: 365px;
+}
+
+.size-245x247 {
+   	width: 245px;
+	height: 247px;
+}
+
+.box img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Caption Common Style */
+.box .caption {
+	background-color:#fff;
+	opacity:0;
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+	left: 0;
+}
+
+/** Caption 3: Fade **/
+.box .fade-caption {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	padding-top:30px;
+    text-align: center;
+}
+
+.box .fade-caption h3 {
+	color:#333;
+}
+
+
+/** Fade Caption :hover Behaviour **/
+.box:hover .fade-caption  {
+	opacity: 0.7;
+}
+
 
 /* ==============================
        DESKTOP STYLES 752px UP 
@@ -642,6 +762,10 @@ header {
 
 .menu-container {
 	border-bottom:3px solid #000;
+}
+
+.logo-desktop {
+	margin-left:15px;
 }
 
 .top-bar {
@@ -702,7 +826,7 @@ header {
 
 .top-bar-section ul.right li .dropdown li a {
 	margin:0px;
-	font-size:11px;
+	font-size:12px;
 	padding:10px 0px 10px 0px;
 	text-align:center;
 	opacity:1;

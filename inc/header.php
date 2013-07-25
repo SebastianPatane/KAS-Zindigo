@@ -12,10 +12,14 @@
         <!-- Top Menu -->
         <div class="large-12 columns menu-container">
         
+        <!-- Your Cart Mobile -->
+        <a href="#" class="mobile-your-cart show-for-small">Your Cart: <strong>0</strong></a>
+        <!-- Your Cart Mobile -->
+        
         <nav class="top-bar">
             <ul class="title-area">
-                <li class="name"><h1><a href="index.php"><img src="img/logo-kas.gif" alt="KAS New York"></a></h1></li>
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                <li class="name"><h1><a href="index.php"><img src="img/logo-kas.gif" alt="KAS New York" class="hide-for-small logo-desktop"><img src="img/logo-kas-mobile.png" alt="KAS New York" class="show-for-small"></a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
             </ul>
             
             <section class="top-bar-section">
@@ -46,7 +50,7 @@
                         <li class="divider"></li>
                         <li><a href="quotes.php">Quotes</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="inspire-us.php">Inspiration</a></li>
                   	</ul>
                 </li>
                 <li class="divider"></li>

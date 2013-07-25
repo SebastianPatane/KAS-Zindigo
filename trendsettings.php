@@ -80,6 +80,7 @@
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
     
   <script>
     $(document).foundation();

@@ -8,10 +8,10 @@
                     
                         <div class="small-5 large-4 columns">
                             <ul class="social-links">
-                                <li><a href="#" class="facebook">Facebook</a></li>
-                                <li><a href="#" class="twitter">Twitter</a></li>
-                                <li><a href="#" class="pinterest">Pinterest</a></li>
-                                <li><a href="#" class="instagram">Instagram</a></li>
+                                <li><a href="#" data-tooltip class="has-tip tip-top facebook" title="Facebook">Facebook</a></li>
+                                <li><a href="#" data-tooltip class="has-tip tip-top twitter" title="Twitter">Twitter</a></li>
+                                <li><a href="#" data-tooltip class="has-tip tip-top pinterest" title="Pinterest">Pinterest</a></li>
+                                <li><a href="#" data-tooltip class="has-tip tip-top instagram" title="Instagram">Instagram</a></li>
                             </ul>
                         </div>
                         

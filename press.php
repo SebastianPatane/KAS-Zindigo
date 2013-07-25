@@ -105,6 +105,7 @@
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
   <script src="js/toucheffects.js"></script>
   <script src="source/jquery.fancybox.js?v=2.1.5"></script>
 
