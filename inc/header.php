@@ -5,7 +5,7 @@
         
     	<!-- Tools -->
         <div class="large-5 columns large-offset-7 header-top-link text-right hide-for-small">
-        	<a href="#">CUSTOMER SERVICE</a> <a href="#"><strong>YOUR CART</strong> 0</a>
+        	<a href="contact.php">CUSTOMER SERVICE</a> <a href="#"><strong>YOUR CART</strong> 0</a>
         </div>
         <!-- /Tools -->
         
