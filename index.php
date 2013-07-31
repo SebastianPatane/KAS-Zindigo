@@ -27,7 +27,7 @@
         	
 		  	<div class="home-title orbit-hack"><h1>Shop</h1></div>
         	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false">
+          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
                 <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>
                 <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>
                 <li class="text-center"><a href="#"><img src="img/home-shop-img.jpg" alt="Shop"></a></li>

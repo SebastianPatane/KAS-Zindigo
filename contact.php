@@ -24,8 +24,8 @@
 	<div class="row">
 	  <div class="large-12 columns">
             
-        	<div class="row">
-            	<div class="large-6 columns">
+        	<div class="row collapse contact-page">
+            	<div class="large-5 columns large-offset-1">
                 		
                         <div class="row">
                         	

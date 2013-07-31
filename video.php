@@ -28,81 +28,18 @@
 		  	
             <div class="top-section-title">VIDEO</div>
             
-        	<ul class="grid small-block-grid-2 large-block-grid-4 cs-style-3">
-				
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
+            
+            <div class="row video-content text-center">
+            
+				<div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
                 
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
+                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
                 
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-                
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-                
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-                
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-                
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-                
-                <!-- Video Example -->
-                <li>
-					<figure>
-						<a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a>
-                        <figcaption><h3>Video Title</h3></figcaption>
-					</figure>
-				</li>
-                <!-- /Video Example -->
-				
-			</ul>
+			</div>
             
         </div>
 	</div>

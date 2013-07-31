@@ -29,19 +29,21 @@
             <div class="top-section-title">PRESS</div>
             
         	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false">
+          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
                 
                 <!-- List Content -->
                 <li class="trendsetting-content">
-                	<ul class="large-block-grid-4 small-block-grid-2">
-                    	<li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
+                	<ul class="text-center">
+                    	<li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
 					</ul>
                 </li>
                 <!-- List Content -->
@@ -50,37 +52,20 @@
                 
                 <!-- List Content -->
                 <li class="trendsetting-content">
-                	<ul class="large-block-grid-4 small-block-grid-2">
-                    	<li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
+                	<ul class="text-center">
+                    	<li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
 					</ul>
                 </li>
                 <!-- List Content -->
-                
-                
-                
-                
-                <!-- List Content -->
-                <li class="trendsetting-content">
-                	<ul class="large-block-grid-4 small-block-grid-2">
-                    	<li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-                        <li class="text-center"><a href="img/popup-img.jpg" class="fancybox" rel="press-gallery"><img src="http://placehold.it/160x220"></a></li>
-					</ul>
-                </li>
-                <!-- List Content -->
-
                 
           	</ul>
             
@@ -101,7 +86,7 @@
   '.js><\/script>')
   </script>
 
-  <script src="js/jquery-1.10.2.min.js"></script>		
+  <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
@@ -112,12 +97,20 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.fancybox').fancybox();
+			
+			$("a[rel=imgs]").hover(function() {
+				$(this).find('img').animate({opacity: 0}, 150);
+				}, function() {
+				$(this).find('img').animate({opacity: 1}, 150);
+			});
+	  
 		});
 	</script>
     
   <script>
     $(document).foundation();
   </script>
+  
   
 </body>
 </html>

@@ -28,7 +28,7 @@
             <div class="top-section-subtitle"><a href="#">Fall 2013</a> <a href="#">Pre Fall 2013</a> <a href="#">Spring/Summer 2013</a></div>
             
         	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false">
+          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
                 <li class="text-center"><img src="img/lookbook-img-test.jpg"></li>
                 <li class="text-center"><img src="img/lookbook-img-test.jpg"></li>
                 <li class="text-center"><img src="img/lookbook-img-test.jpg"></li>

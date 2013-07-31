@@ -39,7 +39,7 @@ h1 {
 
 h2 {
 	font-family: 'Lato', sans-serif;
-	font-size:18px;
+	font-size:15px;
 	font-weight:400;
 	padding:0px;
 	margin:20px 0px 0px 0px;
@@ -181,6 +181,7 @@ ul li {
 	opacity:1;
 	font-family: 'Lato', sans-serif;
 	text-transform:uppercase;
+	letter-spacing:1px;
 }
 
 .home-grid img {
@@ -256,6 +257,10 @@ footer form .go-button {
 
 /* CONTACT SETTINGS
    ----------------------------- */
+.contact-page {
+	padding:0px 20px 0px 20px;
+}
+
 .contact-info {
 	padding-top:0px;
 	border-bottom:2px solid #000;
@@ -270,6 +275,10 @@ footer form .go-button {
 .contact-info h1 span {
 	font-size:12px;
 	margin-left:20px;
+}
+
+.contact-page p {
+	line-height:normal;
 }
 
 span.phone {
@@ -297,7 +306,7 @@ span.mail a {
 }
 
 span.corporate  {
-	padding-right:30px;
+	padding-right:20px;
 	display:inline-block;
 	padding-top:10px;
 }
@@ -311,64 +320,26 @@ span.corporate  {
 
 /* VIDEO SETTINGS
 ----------------------------- */
-.grid {
-	padding: 0px;
-	width:100%;
+.video-content .video {
+	margin-bottom:25px;
 }
 
-.grid li {
-	position: relative;
+.video-content .video img {
+	z-index:100;
 }
 
-.grid figure {
-	margin: 0px;
-	position: relative;
-}
-
-.grid figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 10px;
-	background: #000;
+.video-content .video span {
+	padding:5px 20px 5px 20px;
+	background:#000;
 	opacity:0.8;
-}
-
-.grid figcaption h3 {
-	margin: 0px;
-	padding: 0px;
-	color: #fff;
-}
-
-.cs-style-3 figure {
-	overflow: hidden;
-}
-
-.cs-style-3 figcaption {
-	height: 40px;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-	opacity: 0;
-	-webkit-transform: translateY(-100%);
-	-moz-transform: translateY(-100%);
-	-ms-transform: translateY(-100%);
-	transform: translateY(-100%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-	transition: transform 0.4s, opacity 0.1s 0.3s;
-}
-
-.no-touch .cs-style-3 figure:hover figcaption,
-.cs-style-3 figure.cs-hover figcaption {
-	opacity: 0.8;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
+	color:#fff;
+	z-index:101;
+	position:absolute;
+	left: 50%;
+    margin-left: -55px;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:1px;
 }
 
 
@@ -442,6 +413,7 @@ a.shop-next {
 	margin:10px 0px 0px 0px;
 	padding:0px;
 	line-height:normal;
+	letter-spacing:1px;
 }
 
 .shop-detail h2 {
@@ -457,7 +429,7 @@ a.shop-next {
 .shop-detail h3 {
 	font-size:23px;
 	color:#000;
-	font-weight:700;
+	font-weight:300;
 	text-transform:uppercase;
 	margin:20px 0px 10px 0px;
 	padding:0px;
@@ -652,86 +624,87 @@ a.sizes-guide {
 
 /* WHAT INSPIRE US SETTINGS
    ----------------------------- */
-   
 .inspire-content {
 	background:#fff;
+	height:auto;
+	min-height:500px;
+	padding:0px 20px 0px 20px;
 }
 
-.box {
-	cursor: pointer;
-	position: relative;
+#container {
+	position:relative;
+}
+
+.photo {
+	width: 220px;
 	overflow: hidden;
-	float:left;
+	margin: 0 0 10px 10px;
+	padding: 0;
+	border:1px solid #000;
+}
+
+.photo img {
+	max-width:100%;
+	height:auto;
+}
+
+
+
+/* PRESS SETTINGS
+   ----------------------------- */
+.thumbnailpress	{
+	height:220px;
+	width: 170px;
+	position:relative;
+	overflow:hidden;
+	padding:0px;
 	margin:0px 10px 10px 0px;
+    display: inline-block;
+    white-space: normal;
+	background-repeat:no-repeat;
 }
-
-.size-200x140 {
-	width: 200px;
-	height: 140px;
-}
-
-.size-245x148 {
-	width: 245px;
-	height: 148px;
-}
-
-.size-212x247 {
-	width: 212px;
-	height: 247px;
-}
-
-.size-424x365 {
-	width: 424px;
-	height: 365px;
-}
-
-.size-245x247 {
-   	width: 245px;
-	height: 247px;
-}
-
-.box img {
-	position: absolute;
-	left: 0;
-	-webkit-transition: all 300ms ease-out;
-	-moz-transition: all 300ms ease-out;
-	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;	
-	transition: all 300ms ease-out;
-}
-
-/* Caption Common Style */
-.box .caption {
-	background-color:#fff;
-	opacity:0;
-	position: absolute;
-	color: #fff;
-	z-index: 100;
-	-webkit-transition: all 300ms ease-out;
-	-moz-transition: all 300ms ease-out;
-	-o-transition: all 300ms ease-out;
-	-ms-transition: all 300ms ease-out;	
-	transition: all 300ms ease-out;
-	left: 0;
-}
-
-/** Caption 3: Fade **/
-.box .fade-caption {
-	opacity: 0;
-	width: 100%;
-	height: 100%;
-	padding-top:30px;
-    text-align: center;
-}
-
-.box .fade-caption h3 {
-	color:#333;
+.thumbnailpress img	{
+	height:220px;
+	width:170px;
+	position:relative;
 }
 
 
-/** Fade Caption :hover Behaviour **/
-.box:hover .fade-caption  {
-	opacity: 0.7;
+/* SHARE SETTINGS
+   ----------------------------- */
+.share-content .grow {
+	margin-bottom:10px;
+}
+
+.share-content .grow img {
+	z-index:100;
+}
+
+.share-content .grow span {
+	padding:5px 20px 5px 20px;
+	background:#000;
+	opacity:0.8;
+	color:#fff;
+	z-index:101;
+	position:absolute;
+	left: 50%;
+    margin-left: -55px;
+	text-transform:uppercase;
+	font-size:12px;
+	letter-spacing:1px;
+}
+
+/*GROW*/
+.grow img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  -webkit-filter: blur(5px);
 }
 
 
@@ -751,6 +724,7 @@ h2 {
    ----------------------------- */
 header {
 	margin-bottom:20px;
+	border-bottom:3px solid #000;
 }
 
 .header-top-link a {
@@ -761,7 +735,7 @@ header {
 }
 
 .menu-container {
-	border-bottom:3px solid #000;
+	/*border-bottom:3px solid #000;*/
 }
 
 .logo-desktop {
@@ -817,9 +791,9 @@ header {
 .top-bar-section ul.right li .dropdown  {
 	background:#fff;
 	opacity:0.9;
-	border-right:1px solid #000;
+	/*border-right:1px solid #000;
 	border-left:1px solid #000;
-	border-bottom:1px solid #000;
+	border-bottom:1px solid #000;*/
 	padding-bottom:10px;
 	padding-top:10px;
 }
@@ -859,11 +833,15 @@ footer .footer-links a {
 	display:inline-block;
 	line-height:normal;
 	text-align:right;
-	padding-left:20px;
+	padding-left:15px;
 }
 
 /* CONTACT SETTINGS
    ----------------------------- */
+.contact-page {
+	padding:0px;
+}
+
 .contact-info {
 	padding-top:80px;
 }
@@ -874,8 +852,9 @@ footer .footer-links a {
 }
 
 .contact-info h1 span {
-	margin-left:50px;
+	margin-left:0px;
 	font-size:16px;
+	display:block;
 }
 
 
@@ -912,6 +891,12 @@ form.custom .custom.dropdown.select-size {
 
 .top-bar-section .has-dropdown > a {
 	padding-right:38px !important;
+}
+
+.contact-info h1 span {
+	margin-left:50px;
+	font-size:16px;
+	display:inline;
 }
 
 }

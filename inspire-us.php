@@ -10,6 +10,8 @@
   
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" type="text/css">
+  <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+  <link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
   <link rel="stylesheet" href="css/app.css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -20,7 +22,7 @@
     <?php include('inc/header.php'); ?>
     
     
-    <!-- LookBook Page Content -->
+    <!-- Inspire Page Content -->
 	<div class="row">
 	  <div class="large-12 columns">
 		  	
@@ -30,73 +32,36 @@
           	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
                 
                 <li class="inspire-content">
-                      		
-                            <div class="row collapse">
-                            <div class="large-6 columns">
-                            
-                            <!-- Image Box -->
-                            <div id="box-3" class="box size-200x140">
-                                <img src="img/inspireus-img-01.jpg"/>
-                                <span class="caption fade-caption">
-                                <h3>THIS IS A ROLLOVER CAPTION</h3>
-                                </span>
-                            </div>
-                            <!-- /Image Box -->
-                            
-                            
-                            <!-- Image Box -->
-                            <div id="box-3" class="box size-245x148">
-                                <img src="img/inspireus-img-02.jpg"/>
-                                <span class="caption fade-caption">
-                                <h3>THIS IS A ROLLOVER CAPTION 2</h3>
-                                </span>
-                            </div>
-                            <!-- /Image Box -->
-                            
-                            <!-- Image Box -->
-                            <div id="box-3" class="box size-200x140">
-                                <img src="img/inspireus-img-04.jpg"/>
-                                <span class="caption fade-caption">
-                                <h3>THIS IS A ROLLOVER CAPTION 4</h3>
-                                </span>
-                            </div>
-                            <!-- /Image Box -->
-                            
-                            
-                            <!-- Image Box -->
-                            <div id="box-3" class="box size-245x247">
-                                <img src="img/inspireus-img-05.jpg"/>
-                                <span class="caption fade-caption">
-                                <h3>THIS IS A ROLLOVER CAPTION 5</h3>
-                                </span>
-                            </div>
-                            <!-- /Image Box -->
-
-                            </div>
-                            
-                            <div class="large-6 columns">
-                            
-                            <!-- Image Box -->
-                            <div id="box-3" class="box size-424x365">
-                                <img src="img/inspireus-img-03.jpg"/>
-                                <span class="caption fade-caption">
-                                <h3>THIS IS A ROLLOVER CAPTION 3</h3>
-                                </span>
-                            </div>
-                            <!-- /Image Box -->
-                            
-                            
-                            </div>
-                            
-                            </div>
-                            
+                    <div id="container01"> 
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-01.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-02.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-03.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-04.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-05.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/popup-img.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-07.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-06.jpg"/></a></div>
+                    </div>
+                </li>
+                
+                <li class="inspire-content">
+                    <div id="container02"> 
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-01.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-02.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-03.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-04.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-05.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-08.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-07.jpg"/></a></div>
+                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-06.jpg"/></a></div>
+                    </div>
                 </li>
 
           	</ul>
                     
 		</div>
 	</div>
-    <!-- /LookBook Page Content -->
+    <!-- /Inspire Page Content -->
     
     <?php include('inc/footer.php'); ?>
 
@@ -106,14 +71,62 @@
   '.js><\/script>')
   </script>
 
+  <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="source/jquery.fancybox.js?v=2.1.5"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+
+  <script type="text/javascript">
+   	$(document).ready(function() {
+
+		$('.fancybox').fancybox();
+		
+		// Isotope Instance 01 //
+		$(function(){
+      		var $container = $('#container01');      
+			$container.isotope({
+			  itemSelector: '.photo',
+			  resizable: false
+			});
+			
+			//update columnWidth on window resize
+			$(window).smartresize(function(){
+				$container.isotope({
+				});
+			});
+    	});
+		// END Isotope Instance 01 //
+		
+		// Isotope Instance 02 //
+		$(function(){
+      		var $container = $('#container02');      
+			$container.isotope({
+			  itemSelector: '.photo',
+			  resizable: false
+			});
+			
+			//update columnWidth on window resize
+			$(window).smartresize(function(){
+				$container.isotope({
+				});
+			});
+    	});
+		// END Isotope Instance 02 //
+
+  	});
   
+  </script>
     
   <script>
     $(document).foundation();
+	
+	$(window).load(function(){$('#container01').isotope('reLayout');});
+	$(window).load(function(){$('#container02').isotope('reLayout');});
+	
   </script>
   
 </body>
