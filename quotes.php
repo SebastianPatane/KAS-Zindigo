@@ -28,10 +28,10 @@
             
         	<div class="preloader"></div>
           	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
-                <li class="text-center"><img src="img/quotes-img-test.jpg" class="image-center"></li>
-                <li class="text-center"><img src="img/home-quotes-img.jpg" class="image-center"></li>
-                <li class="text-center"><img src="img/quotes-img-test.jpg" class="image-center"></li>
-                <li class="text-center"><img src="img/home-quotes-img.jpg" class="image-center"></li>
+                <li class="text-center"><div class="quotes-item"><img src="img/quotes-img-test.jpg"></div></li>
+                <li class="text-center"><div class="quotes-item"><img src="img/home-quotes-img.jpg"></div></li>
+                <li class="text-center"><div class="quotes-item"><img src="img/quotes-img-test.jpg"></div></li>
+                <li class="text-center"><div class="quotes-item"><img src="img/home-quotes-img.jpg"></div></li>
           	</ul>
             
         </div>

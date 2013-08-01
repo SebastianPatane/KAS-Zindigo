@@ -33,29 +33,165 @@
                 
                 <li class="inspire-content">
                     <div id="container01"> 
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-01.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-02.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-03.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-04.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-05.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/popup-img.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-07.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-06.jpg"/></a></div>
+                        
+                        <div class="photo">
+                            <div class="view third-effect">
+                                <img src="img/inspireus-img-01.jpg"/>
+                                <div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-02.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-03.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-04.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-05.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/popup-img.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-07.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-08.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
                     </div>
                 </li>
                 
+                
+                
+                
                 <li class="inspire-content">
                     <div id="container02"> 
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-01.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-02.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-03.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-04.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-05.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-08.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-07.jpg"/></a></div>
-                        <div class="photo"><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspireus-img-06.jpg"/></a></div>
+                        
+                        <div class="photo">
+                            <div class="view third-effect">
+                                <img src="img/inspireus-img-01.jpg"/>
+                                <div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-02.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-03.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-04.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-05.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/popup-img.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-07.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-08.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
                     </div>
                 </li>
+                
+                
+                
 
           	</ul>
                     

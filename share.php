@@ -26,19 +26,19 @@
 		  	
             <div class="top-section-title">SHARE</div>
             
-        	<div class="row collapse share-content text-center">
+        	<div class="row share-content">
             
-				<div class="large-4 columns"><div class="grow"><span>Instagram</span><a href="#"><img src="img/share-instagram-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Twitter</span><a href="#"><img src="img/share-twitter-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Facebook</span><a href="#"><img src="img/share-facebook-img.jpg"></a></div></div>
+				<div class="large-4 columns"><div class="share-title"><h1>INSTAGRAM</h1></div><a href="#"><img src="img/share-instagram-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Twitter</h1></div><a href="#"><img src="img/share-twitter-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Facebook</h1></div><a href="#"><img src="img/share-facebook-img.jpg"></a></div>
                 
-                <div class="large-4 columns"><div class="grow"><span>Pinterest</span><a href="#"><img src="img/share-pinterest-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Instagram</span><a href="#"><img src="img/share-instagram02-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Tumbler</span><a href="#"><img src="img/share-tumbler-img.jpg"></a></div></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Pinterest</h1></div><a href="#"><img src="img/share-pinterest-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Instagram</h1></div><a href="#"><img src="img/share-instagram02-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Tumbler</h1></div><a href="#"><img src="img/share-tumbler-img.jpg"></a></div>
                 
-                <div class="large-4 columns"><div class="grow"><span>Pinterest</span><a href="#"><img src="img/share-pinterest02-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Spotify</span><a href="#"><img src="img/share-spotify-img.jpg"></a></div></div>
-                <div class="large-4 columns"><div class="grow"><span>Youtube</span><a href="#"><img src="img/share-youtube-img.jpg"></a></div></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Pinterest</h1></div><a href="#"><img src="img/share-pinterest02-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Spotify</h1></div><a href="#"><img src="img/share-spotify-img.jpg"></a></div>
+                <div class="large-4 columns"><div class="share-title"><h1>Youtube</h1></div><a href="#"><img src="img/share-youtube-img.jpg"></a></div>
                 
 			</div>
             

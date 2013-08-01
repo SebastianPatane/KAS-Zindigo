@@ -31,13 +31,13 @@
             
             <div class="row video-content text-center">
             
-				<div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
-                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
-                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+				<div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
+                <div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
+                <div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
                 
-                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
-                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
-                <div class="large-4 columns"><div class="video"><span>Video Name</span><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div></div>
+                <div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
+                <div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
+                <div class="large-4 columns"><div class="video-title"><h1>Video Name</h1></div><a class="fancybox-media" href="http://www.youtube.com/watch?v=opj24KnzrWo" rel="video-gallery"><img src="http://placehold.it/400x300"></a></div>
                 
 			</div>
             

@@ -42,7 +42,11 @@
                 	<h1>SMOKY TOPAZ AND DIAMOND RING</h1>
 					<h2>in 14k White Gold plated Sterling Silver</h2>
                     
-                    <h3>$525</h3>
+                    <div class="row collapse">
+                    	<div class="large-6 small-6 columns"><h3>$525</h3></div>
+                        <div class="large-6 small-6 columns text-right"><a href="#" class="small button add-cart-button add-cart-price">Add Cart</a></div>
+                    </div>
+                        
                     <hr>
                     
                     <p>For a chic look at this season’s parties, the dramatic draping in contrast to the tight fitting skirt makes this the ultimate Cocktail Dress.</p>
@@ -70,12 +74,12 @@
                             </div>
                             <div class="large-12 columns">
                             	<!-- Product Thumbails -->
-                            	<ul class="large-block-grid-6 small-block-grid-2" id="images-shop-thumbails">
-                                    <li><img src="http://placehold.it/380x525"></li>
-                                    <li><img src="http://placehold.it/380x525"></li>
-                                    <li><img src="http://placehold.it/380x525"></li>
-                                    <li><img src="http://placehold.it/380x525"></li>
-                                </ul>
+                            	<div id="images-shop-thumbails">
+                                    <img src="http://placehold.it/71x71">
+                                    <img src="http://placehold.it/71x71">
+                                    <img src="http://placehold.it/71x71">
+                                    <img src="http://placehold.it/71x71">
+                                </div>
                                 <!-- Ship message -->
                                 <p><i>(Usually ships in 2 to 5 business days)</i></p>
                             </div>

@@ -33,23 +33,14 @@
                 <li class="shop-slider-content">
                 	<div class="row">
                     	<div class="large-6 columns text-center">
-                   	    	<a href="#" data-dropdown="product-tooltip" data-options="is_hover:true"><img src="img/shop-img-orbit.jpg"></a><br>Lorem ipsum<br>$450 
-                            <div id="product-tooltip" data-dropdown-content class="f-dropdown content">
-                              <h1>Abagail</h1>
-                              <p>Lorem ipsum sit dolor amet quid after illus at bullet fallet Lorem ipsum sit dolor amet quid after illus at bullet fallet.</p>
-                              <div class="row collapse">
-                              		<div class="large-6 small-6 columns text-left"><p><strong>$1,295</strong></p></div>
-                                    <div class="large-6 small-6 columns text-right">FB Like Button</div>
-                              </div>      
-                              <a href="shop-detail.php">More Info</a>
-                            </div>
+                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><br><span>Lorem ipsum<br>$450</span>
                         </div>
                         <div class="large-6 columns">
                         	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
                             </ul>
                         </div>
                     </div>
@@ -63,23 +54,14 @@
                 <li class="shop-slider-content">
                 	<div class="row">
                     	<div class="large-6 columns text-center">
-                   	    	<a href="#" data-dropdown="product-tooltip2" data-options="is_hover:true"><img src="img/shop-img-orbit.jpg"></a><br>Lorem ipsum<br>$450 
-                            <div id="product-tooltip2" data-dropdown-content class="f-dropdown content">
-                              <h1>Abagail</h1>
-                              <p>Lorem ipsum sit dolor amet quid after illus at bullet fallet Lorem ipsum sit dolor amet quid after illus at bullet fallet.</p>
-                              <div class="row collapse">
-                              		<div class="large-6 small-6 columns text-left"><strong>$1,295</strong></div>
-                                    <div class="large-6 small-6 columns text-right">FB Like Button</div>
-                              </div>      
-                              <a href="shop-detail.php">More Info</a>
-                            </div>
+                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><span>Lorem ipsum<br>$450</span>
                         </div>
                         <div class="large-6 columns">
                         	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
                             </ul>
                         </div>
                     </div>
@@ -94,23 +76,14 @@
                 <li class="shop-slider-content">
                 	<div class="row">
                     	<div class="large-6 columns text-center">
-                   	    	<a href="#" data-dropdown="product-tooltip3" data-options="is_hover:true"><img src="img/shop-img-orbit.jpg"></a><br>Lorem ipsum<br>$450 
-                            <div id="product-tooltip3" data-dropdown-content class="f-dropdown content">
-                              <h1>Abagail</h1>
-                              <p>Lorem ipsum sit dolor amet quid after illus at bullet fallet Lorem ipsum sit dolor amet quid after illus at bullet fallet.</p>
-                              <div class="row collapse">
-                              		<div class="large-6 small-6 columns text-left"><strong>$1,295</strong></div>
-                                    <div class="large-6 small-6 columns text-right">FB Like Button</div>
-                              </div>      
-                              <a href="shop-detail.php">More Info</a>
-                            </div>
+                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><br><span>Lorem ipsum<br>$450</span>
                         </div>
                         <div class="large-6 columns">
                         	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br>Lorem ipsum<br>$450 </li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
+                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
                             </ul>
                         </div>
                     </div>
@@ -139,7 +112,6 @@
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
-  <script src="js/foundation/foundation.dropdown.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
     
   <script>
