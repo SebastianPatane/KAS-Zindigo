@@ -29,7 +29,7 @@
                 		
                         <div class="row">
                         	
-                            <div class="large-12 columns contact-info"><h1>Customer Service <span>1-877-212-8450</span></h1></div>
+                            <div class="large-12 columns contact-info"><h1>Customer Service <span><a href="tel:18772128450">1-877-212-8450</a></span></h1></div>
                             
                             <div class="large-6 columns">
                             	
@@ -40,8 +40,8 @@
                                 5th Floor<br>
                                 New York, NY 10001</p>
                                     
-                                <span class="phone">212.675.8400</span>
-                                <span class="phone">212.675.8417</span>
+                                <span class="phone"><a href="tel:2126758400">212.675.8400</a></span>
+                                <span class="phone"><a href="tel:2126758417">212.675.8417</a></span>
                                 <span class="mail"><a href="mailto:info@fakeemail.com">info@fakeemail.com</a></span>
       
                             </div>
@@ -55,15 +55,15 @@
                                 Suite 215 <br>
                                 Los Angeles, CA 90014 </p>
                                     
-                                <span class="phone">213.623.8703</span>
-                                <span class="phone">213.623.8718</span>
+                                <span class="phone"><a href="tel:2136238703">213.623.8703</a></span>
+                                <span class="phone"><a href="tel:2136238718">213.623.8718</a></span>
                                 <span class="mail"><a href="mailto:info@jshowroom.com">info@jshowroom.com</a></span>
                                 
                             </div>
                             
                             <div class="large-12 columns contact-corporate">
                             	<h3>Corporate Office</h3>
-                                <p><span class="corporate">PRESS 646.682.9020</span> <span class="corporate">SALES 646.682.9020</span> <span class="corporate">GENERAL 646.682.9020</span></p>
+                                <p><span class="corporate">PRESS <a href="tel:6466829020">646.682.9020</a></span> <span class="corporate">SALES <a href="tel:6466829020">646.682.9020</a></span> <span class="corporate">GENERAL <a href="tel:6466829020">646.682.9020</a></span></p>
                             </div>
                         
                         </div>
@@ -96,6 +96,8 @@
   <script>
     $(document).foundation();
   </script>
+  
+  <?php include('inc/scripts.php'); ?>
   
 </body>
 </html>

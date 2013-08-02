@@ -265,5 +265,7 @@
 	
   </script>
   
+  <?php include('inc/scripts.php'); ?>
+  
 </body>
 </html>

@@ -1,5 +1,5 @@
 	<!-- Footer Content -->
-    <footer>
+    <footer id="footer-id">
         <div class="row">
         
                 <div class="large-5 columns">

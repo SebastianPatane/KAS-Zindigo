@@ -43,7 +43,7 @@
 					<h2>in 14k White Gold plated Sterling Silver</h2>
                     
                     <div class="row collapse">
-                    	<div class="large-6 small-6 columns"><h3>$525</h3></div>
+                    	<div class="large-6 small-6 columns"><h3 class="old-price">$525</h3> <h3 class="new-price">$425</h3></div>
                         <div class="large-6 small-6 columns text-right"><a href="#" class="small button add-cart-button add-cart-price">Add Cart</a></div>
                     </div>
                         
@@ -106,15 +106,17 @@
                     <!-- Recomended Products -->
                     <h4>You May also Like</h4>
                     
+                    <div class="related-products">
                     <a href="#"><img src="http://placehold.it/80x85"></a>
                     <a href="#"><img src="http://placehold.it/80x85"></a>
                     <a href="#"><img src="http://placehold.it/80x85"></a>
                     <a href="#"><img src="http://placehold.it/80x85"></a>
-                    <a href="#"><img src="http://placehold.it/80x85"></a>
+                    <a href="#"><img src="http://placehold.it/80x85" class="no-margin"></a>
+                    </div>
                     <!-- /Recomended Products -->
                     
-                    <!-- Remove this / Used to force scrolling -->
-                    <br><br><br><br><br><br><br><br>
+                    <!-- Remove this / Used to force scrolling 
+                    <br><br><br><br><br><br><br><br>-->
                     
                 </div>
             
@@ -159,6 +161,8 @@
 	}); 
 	
   </script>
+  
+  <?php include('inc/scripts.php'); ?>
   
 </body>
 </html>

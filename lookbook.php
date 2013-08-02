@@ -24,7 +24,7 @@
 	<div class="row">
 	  <div class="large-12 columns">
 		  	
-            <div class="top-section-title">LOOK BOOK</div>
+            <div class="top-section-title">LOOKBOOK</div>
             <div class="top-section-subtitle"><a href="#">Fall 2013</a> <a href="#">Pre Fall 2013</a> <a href="#">Spring/Summer 2013</a></div>
             
         	<div class="preloader"></div>
@@ -59,6 +59,8 @@
   <script>
     $(document).foundation();
   </script>
+  
+  <?php include('inc/scripts.php'); ?>
   
 </body>
 </html>

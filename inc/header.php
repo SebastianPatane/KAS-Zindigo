@@ -13,7 +13,7 @@
         <div class="large-12 columns menu-container">
         
         <!-- Your Cart Mobile -->
-        <a href="#" class="mobile-your-cart show-for-small">Your Cart: <strong>0</strong></a>
+        <a href="#" class="mobile-your-cart">Your Cart: <strong>0</strong></a>
         <!-- Your Cart Mobile -->
         
         <nav class="top-bar">
@@ -46,7 +46,7 @@
                 <li class="divider"></li>
                 <li class="has-dropdown"><a href="#">What Inspires us</a>
                 	<ul class="dropdown">
-                        <li><a href="trendsettings.php">Trend-setting</a></li>
+                        <li><a href="trendsettings.php">Trendsetting</a></li>
                         <li class="divider"></li>
                         <li><a href="quotes.php">Quotes</a></li>
                         <li class="divider"></li>
