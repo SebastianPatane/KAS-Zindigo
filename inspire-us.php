@@ -52,9 +52,18 @@
                         	</div>
                         </div>
                         
-                        <div class="photo">
+                        <div class="photo" style="width:450px">
                         	<div class="view third-effect">
                         		<img src="img/inspireus-img-03.jpg"/>
+                        		<div class="mask">
+                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
+                                </div>
+                        	</div>
+                        </div>
+                        
+                        <div class="photo">
+                        	<div class="view third-effect">
+                        		<img src="img/inspireus-img-05.jpg"/>
                         		<div class="mask">
                                     <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
                                 </div>
@@ -70,18 +79,10 @@
                         	</div>
                         </div>
                         
-                        <div class="photo">
-                        	<div class="view third-effect">
-                        		<img src="img/inspireus-img-05.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
-                        </div>
 
-                        <div class="photo">
+                        <div class="photo" style="width:450px;">
                         	<div class="view third-effect">
-                        		<img src="img/popup-img.jpg"/>
+                        		<img src="img/inspireus-img-06.jpg"/>
                         		<div class="mask">
                                     <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
                                 </div>

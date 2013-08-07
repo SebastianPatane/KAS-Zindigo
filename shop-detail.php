@@ -27,7 +27,7 @@
             <div class="top-section-title">
             	<div class="row collapse">
                 	<div class="large-5 small-5 columns"><a href="#">BACK</a></div>
-                	<div class="large-7 small-7 columns text-right"><a href="#" class="shop-prev">Previous</a> <a href="#" class="shop-next">Next</a></div>
+                	<div class="large-7 small-7 columns text-right"><a href="#" class="shop-next">Next</a> <a href="#" class="shop-prev">Previous</a></div>
                 </div>
             </div>
             
@@ -44,7 +44,7 @@
                     
                     <div class="row collapse">
                     	<div class="large-6 small-6 columns"><h3 class="old-price">$525</h3> <h3 class="new-price">$425</h3></div>
-                        <div class="large-6 small-6 columns text-right"><a href="#" class="small button add-cart-button add-cart-price">Add Cart</a></div>
+                        <div class="large-6 small-6 columns text-right"><a href="#" class="small button add-cart-button add-cart-price">ADD TO CART</a></div>
                     </div>
                         
                     <hr>
@@ -59,7 +59,7 @@
                     <form class="custom">
                     	<div class="row">
                     		<div class="large-12 columns">
-                            	<label class="normal">Colors</label><input type="text" class="size-color"> 
+                            	<label class="normal">Color</label><input type="text" class="size-color"> 
                                 <label class="small">Qty</label><input type="text" class="size-qty">
                             </div>
                     		<div class="large-12 columns">
@@ -81,7 +81,7 @@
                                     <img src="http://placehold.it/71x71">
                                 </div>
                                 <!-- Ship message -->
-                                <p><i>(Usually ships in 2 to 5 business days)</i></p>
+                                <span class="shipping-note">(Usually ships in 2 to 5 business days)</span>
                             </div>
                             <div class="large-6 columns">
                             	<a href="#" class="small button add-cart-button">Add Cart</a>
@@ -107,11 +107,13 @@
                     <h4>You May also Like</h4>
                     
                     <div class="related-products">
-                    <a href="#"><img src="http://placehold.it/80x85"></a>
-                    <a href="#"><img src="http://placehold.it/80x85"></a>
-                    <a href="#"><img src="http://placehold.it/80x85"></a>
-                    <a href="#"><img src="http://placehold.it/80x85"></a>
-                    <a href="#"><img src="http://placehold.it/80x85" class="no-margin"></a>
+                        <ul class="small-block-grid-5 small-block-grid-5">
+                            <li><a href="#"><img src="http://placehold.it/100x85"></a></li>
+                            <li><a href="#"><img src="http://placehold.it/100x85"></a></li>
+                            <li><a href="#"><img src="http://placehold.it/100x85"></a></li>
+                            <li><a href="#"><img src="http://placehold.it/100x85"></a></li>
+                            <li><a href="#"><img src="http://placehold.it/100x85" class="no-margin"></a></li>
+                        </ul>
                     </div>
                     <!-- /Recomended Products -->
                     
