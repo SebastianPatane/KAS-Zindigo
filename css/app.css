@@ -154,6 +154,17 @@ ul li {
 	font-weight:300;
 }
 
+@media only screen and (max-width: 768px) {}
+  .top-section-subtitle {
+    font-size: 10px;
+  }
+  
+  .top-section-subtitle a {
+    color:#8d8d8d;
+    padding:0px 20px 0px 0px;
+  }
+}
+
 .top-section-subtitle a {
 	display:inline-block;
 	padding:0px 30px 0px 0px;
@@ -303,7 +314,19 @@ footer form .go-button {
 .contact-page {
 	padding:0px 20px 0px 20px;
 }
-
+@media only screen and (max-width: 768px) {
+  .contact-page {
+    background: transparent url(../img/contact-img.jpg) no-repeat right top;
+    padding: bottom: 50px;
+    background-size:contain;
+  }
+  
+  .contact-page p,
+  .contact-page .phone, 
+  .contact-page .mail {
+    background-color: rgba(255, 255, 255, .7);
+  }
+}
 .contact-page a {
 	color:#222222;
 }
@@ -321,38 +344,47 @@ footer form .go-button {
 .contact-info h1 {
 	margin-bottom:10px;
 	font-size:16px;
+	background: rgba(255, 255, 255, .7);
 }
 
+.contact-info h3 {
+  background: rgba(255, 255, 255, .7);
+}
 .contact-info h1 span {
 	font-size:12px;
 	margin-left:20px;
 }
 
+.contact-page h2 {
+margin: 10px 0 20px 0;
+}
+
 .contact-page p {
-	line-height: normal; 
+ 
 	font-size: 13px;
 }
 
-span.phone {
-	display:block;
-	padding:0px 0px 0px 20px;
-	background:url(../img/ico-phone.gif) center left no-repeat;
-	margin:0px 0px 5px 0px;
-	font-size:12px;
-	height:16px;
-	line-height:16px;
+.phone,
+.mail {
+  display: inline-block;
+  padding: 7px 10px 7px 15px;
+  font-size: 13px;
+  background: rgba(255, 255, 255, .7);
+  margin-left: 5px;
+    
+} 
+.phone {
+	background: rgba(255, 255, 255, .7) url(../img/ico-phone.gif) center left no-repeat;
 }
 
-span.mail {
-	display:block;
-	padding:0px 0px 0px 20px;
-	background:url(../img/ico-mail.gif) center left no-repeat;
-	margin:0px 0px 5px 0px;
-	font-size:12px;
-	height:16px;
-	line-height:16px;
+.mail {
+	background: rgba(255, 255, 255, .7)  url(../img/ico-mail.gif) center left no-repeat;
 }
 
+a.phone:hover,
+a.mail:hover {
+  color: #DE6A3F;
+}
 span.mail a {
 	color:#000;
 }
@@ -593,18 +625,31 @@ input.size-color {
 }
 
 input.size-qty {
-	width:65px;
+	width: 50px;
 	float:left;
 }
 
-form.custom .custom.dropdown.select-size {
+form.custom .custom.dropdown.select-size,
+form.custom .custom.dropdown.choose-color {
 	float:left;
 	width:125px;
 }
 
+form.custom .custom.dropdown.choose-color {
+  margin-right: 15px
+}
 form.custom .custom.dropdown .current {
 	font-size:11px;
 	line-height:29px;
+}
+
+@media only screen and (max-width: 768px) {
+  form.custom .custom.dropdown .current,
+  a.sizes-guide {
+    font-size:10px;
+  }
+  
+  
 }
 
 form.custom .custom.dropdown .selector {
@@ -616,7 +661,7 @@ form.custom .custom.dropdown .selector {
 }
 
 a.sizes-guide {
-	width:65px;
+	width:85px;
 	height:32px;
 	float:left;
 	background:#EEEEEE;
@@ -631,7 +676,10 @@ a.sizes-guide {
 }
 
 .add-cart-button {
+	/*
 	border-color: #000;
+	*/
+	border: none;
 	background: #000;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -648,7 +696,7 @@ a.sizes-guide {
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #868686;
+    background-color: #DE6A3F;
 	text-decoration:none; }
 
 .shipping-note {
@@ -877,6 +925,18 @@ h3.new-price {
 	height:auto;
 }
 
+/* WHO IS SETTINGS
+   ----------------------------- */
+
+
+.who-is-kas {
+  padding: 5px 30px 30px 0
+}
+@media only screen and (max-width: 321px) {
+  .who-is-kas {
+    padding: 0 0px 30px 0
+  }
+}
 
 /* ==============================
        DESKTOP STYLES 752px UP 
@@ -898,10 +958,13 @@ header {
 }
 
 .header-top-link a {
-	font-size:12px;
-	color:#000;
-	display:inline-block;
-	padding:5px 0px 5px 40px;
+	font-size: 12px;
+  color: #000;
+  display: inline-block;
+  padding: 0px 13px 0px 15px;
+  position: relative;
+  top: 9px;
+  z-index: 300;
 }
 
 .menu-container {
@@ -917,6 +980,10 @@ header {
 	height: 56px;
 	line-height: 56px;
 	margin-bottom:0px;
+}
+
+.top-bar .name h1 {
+margin: -3px 0 0 0;
 }
 
 .top-bar .name h1 a {
@@ -1019,7 +1086,7 @@ footer .footer-links a {
 }
 
 .contact-info {
-	padding-top:80px;
+	padding-top:150px;
 }
 
 .contact-info h1 {
@@ -1045,7 +1112,8 @@ input.size-color {
 	margin-right:30px;
 }
 
-form.custom .custom.dropdown.select-size {
+form.custom .custom.dropdown.select-size,
+form.custom .custom.dropdown.choose-color {
 	width:140px;
 }
 
@@ -1102,6 +1170,10 @@ a.mobile-your-cart {
 .top-bar-section li a:not(.button) {
 	padding:0px 30px 0px 30px;
 
+}
+
+.top-bar-section li:last-child a {
+  padding: 0px 15px 0px 30px;
 }
 
 .top-bar-section .has-dropdown > a {

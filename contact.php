@@ -29,26 +29,38 @@
                 		
                         <div class="row">
                         	
-                            <div class="large-12 columns contact-info"><h1>Customer Service <span><a href="tel:18772128450">1-877-212-8450</a></span></h1></div>
-                            
-                            <div class="large-6 columns">
-                            	
-                                <h2>SHOWROOM</h2> 
+                            <div class="large-12 columns contact-info">
+                              <h1>
+                                Customer Service 
+                                <span>
+                                  <a href="tel:18772128450">
+                                    1-877-212-8450
+                                  </a>
+                                </span>
+                              </h1>
+                            </div>
+                         </div>
 
+                         <div class="row">
+                           <div class="large-12 columns">
+                              <h2>SHOWROOM</h2>
+                            </div>
+                            <div class="large-6 columns">
                                 <p>New York City<br>
                                 263 11th Avenue<br>
                                 5th Floor<br>
                                 New York, NY 10001</p>
-                                    
-                                <span class="phone"><a href="tel:2126758400">212.675.8400</a></span>
-                                <span class="phone"><a href="tel:2126758417">212.675.8417</a></span>
-                                <span class="mail"><a href="mailto:info@fakeemail.com">info@fakeemail.com</a></span>
-      
                             </div>
                             
                             <div class="large-6 columns">
                             	
-                                <h2>SHOWROOM</h2> 
+                            	 <a href="tel:2126758400" class="phone">212.675.8400</a></span>
+                               <br>
+                               <a href="tel:2126758417" class="phone">212.675.8417</a></span>
+                               <br>
+                               <a href="mailto:info@fakeemail.com" class="mail">info@fakeemail.com</a></span>
+                             
+                                <!--h2>SHOWROOM</h2> 
 
                                 <p>Los Angeles<br>
                                 860 S. Los Angeles Street<br>
@@ -57,13 +69,24 @@
                                     
                                 <span class="phone"><a href="tel:2136238703">213.623.8703</a></span>
                                 <span class="phone"><a href="tel:2136238718">213.623.8718</a></span>
-                                <span class="mail"><a href="mailto:info@jshowroom.com">info@jshowroom.com</a></span>
-                                
+                                <span class="mail"><a href="mailto:info@jshowroom.com">info@jshowroom.com</a></span -->
                             </div>
                             
                             <div class="large-12 columns contact-corporate">
                             	<h3>Corporate Office</h3>
-                                <p><span class="corporate">PRESS <a href="tel:6466829020">646.682.9020</a></span> <span class="corporate">SALES <a href="tel:6466829020">646.682.9020</a></span> <span class="corporate">GENERAL <a href="tel:6466829020">646.682.9020</a></span></p>
+                                <p>
+                                  <span class="corporate">
+                                  PRESS - 
+                                  <a class="phone" href="tel:6466829020">646.682.9020</a>
+                                  </span> 
+                                  
+                                  <span class="corporate">SALES - 
+                                    <a class="phone"  href="tel:6466829020">646.682.9020</a>
+                                  </span> 
+                                  <span class="corporate">GENERAL -  
+                                    <a class="phone" href="tel:6466829020">646.682.9020</a>
+                                    </span>
+                                  </p>
                             </div>
                         
                         </div>

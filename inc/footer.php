@@ -33,6 +33,7 @@
                 </div>
                 
                 <div class="large-7 columns footer-links text-right">
+                    <a href="contact.php" class="show-for-small">CUSTOMER SERVICE</a>
                     <a href="#">PRIVACY POLICY</a>
                     <a href="#">TERMS & CONDITIONS</a>
                     <a href="#">SHIPPING & RETURNS</a>

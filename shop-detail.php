@@ -40,7 +40,7 @@
                 <div class="large-7 columns shop-detail">
                 
                 	<h1>SMOKY TOPAZ AND DIAMOND RING</h1>
-					<h2>in 14k White Gold plated Sterling Silver</h2>
+					        <h2>in 14k White Gold plated Sterling Silver</h2>
                     
                     <div class="row collapse">
                     	<div class="large-6 small-6 columns"><h3 class="old-price">$525</h3> <h3 class="new-price">$425</h3></div>
@@ -51,15 +51,26 @@
                     
                     <p>For a chic look at this season’s parties, the dramatic draping in contrast to the tight fitting skirt makes this the ultimate Cocktail Dress.</p>
                     
-                    <span data-tooltip class="has-tip tip-top product-color color-01" title="Color Name"></span>
+                    
+                    
+                    <!-- // COLOR BOXES WITH TOOLTIPS -->
+                    <!-- span data-tooltip class="has-tip tip-top product-color color-01" title="Color Name"></span>
                     <span data-tooltip class="has-tip tip-top product-color color-02" title="Color Name"></span>
-                    <span data-tooltip class="has-tip tip-top product-color color-03" title="Color Name"></span>
+                    <span data-tooltip class="has-tip tip-top product-color color-03" title="Color Name"></span -->
 
                     
                     <form class="custom">
                     	<div class="row">
+                    	 
                     		<div class="large-12 columns">
-                            	<label class="normal">Color</label><input type="text" class="size-color"> 
+                            	<!-- label class="normal">Color</label><input type="text" class="size-color" -->
+                            	<label class="normal">Color</label>
+                                <select id="color" class="choose-color">
+                                  <option selected DISABLED>CHOOSE COLOR</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                </select> 
                                 <label class="small">Qty</label><input type="text" class="size-qty">
                             </div>
                     		<div class="large-12 columns">
@@ -75,16 +86,16 @@
                             <div class="large-12 columns">
                             	<!-- Product Thumbails -->
                             	<div id="images-shop-thumbails">
-                                    <img src="http://placehold.it/71x71">
-                                    <img src="http://placehold.it/71x71">
-                                    <img src="http://placehold.it/71x71">
-                                    <img src="http://placehold.it/71x71">
+                                    <img src="http://placehold.it/70x70">
+                                    <img src="http://placehold.it/70x70">
+                                    <img src="http://placehold.it/70x70">
+                                    <img src="http://placehold.it/70x70">
                                 </div>
                                 <!-- Ship message -->
                                 <span class="shipping-note">(Usually ships in 2 to 5 business days)</span>
                             </div>
                             <div class="large-6 columns">
-                            	<a href="#" class="small button add-cart-button">Add Cart</a>
+                            	<a href="#" class="small button add-cart-button">Add To Cart</a>
                             </div>
                             <div class="large-5 columns">
                             	<div class="shop-share-links">
