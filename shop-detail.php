@@ -1,3 +1,4 @@
+<?php include('inc/facebook-check.php'); ?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -97,6 +98,8 @@
                             <div class="large-6 columns">
                             	<a href="#" class="small button add-cart-button">Add To Cart</a>
                             </div>
+                            
+                            <?php /*[ Hide on Facebook App View ]*/ if(!$liked){ ?>
                             <div class="large-5 columns">
                             	<div class="shop-share-links">
                             		<span>Share</span>
@@ -108,6 +111,7 @@
                                     </ul>
                                 </div>
                             </div>
+                            <?php } ?>
                         </div>
                     </form>
                     

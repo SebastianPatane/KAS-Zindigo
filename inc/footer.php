@@ -6,10 +6,12 @@
                     
                     <div class="row collapse">
                     	
-                        <?php if( $on_facebook == false ){ ?>
+                        <?php if(!$liked){ ?>
 
                         	<div class="small-5 large-4 columns">
                                 <ul class="social-links">
+                                	
+                                    <?php echo $on_facebook; ?>
                                     <li><a href="#" data-tooltip class="has-tip tip-top facebook" title="Facebook">Facebook</a></li>
                                     <li><a href="#" data-tooltip class="has-tip tip-top twitter" title="Twitter">Twitter</a></li>
                                     <li><a href="#" data-tooltip class="has-tip tip-top pinterest" title="Pinterest">Pinterest</a></li>

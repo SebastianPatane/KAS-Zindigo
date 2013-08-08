@@ -1,16 +1,4 @@
-<?php
-require 'facebook.php';
-$facebook = new Facebook(array(
-	'appId' => '500663786683684',
-  	'secret' => 'adcf27380132a5fd5e1a5c42d967b826',
-));
-
-
-$theRequest = $facebook->getSignedRequest();
-
-if( $theRequest['user_id'] != '' ) { $on_facebook = true; } else { $on_facebook = false; }
-
-?>
+<?php include('inc/facebook-check.php'); ?>
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -29,7 +17,6 @@ if( $theRequest['user_id'] != '' ) { $on_facebook = true; } else { $on_facebook 
 
 </head>
 <body>
-	
 
     <?php include('inc/header.php'); ?>
     
@@ -40,7 +27,7 @@ if( $theRequest['user_id'] != '' ) { $on_facebook = true; } else { $on_facebook 
         	
 		  	<div class="home-title orbit-hack"><h1>Shop</h1></div>
         	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: true; navigation_arrows: false; timer_speed: 4000">
+          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: true; timer_speed: 4000">
                 <li class="text-center"><a href="shop-detail.php"><img src="img/home-shop-img01.jpg" alt="Shop"></a></li>
                 <li class="text-center"><a href="shop-detail.php"><img src="img/home-shop-img02.jpg" alt="Shop"></a></li>
                 <li class="text-center"><a href="shop-detail.php"><img src="img/home-shop-img03.jpg" alt="Shop"></a></li>
