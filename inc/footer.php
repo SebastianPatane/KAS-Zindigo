@@ -5,16 +5,20 @@
                 <div class="large-5 columns">
                     
                     <div class="row collapse">
-                    
-                        <div class="small-5 large-4 columns">
-                            <ul class="social-links">
-                                <li><a href="#" data-tooltip class="has-tip tip-top facebook" title="Facebook">Facebook</a></li>
-                                <li><a href="#" data-tooltip class="has-tip tip-top twitter" title="Twitter">Twitter</a></li>
-                                <li><a href="#" data-tooltip class="has-tip tip-top pinterest" title="Pinterest">Pinterest</a></li>
-                                <li><a href="#" data-tooltip class="has-tip tip-top instagram" title="Instagram">Instagram</a></li>
-                            </ul>
-                        </div>
-                        
+                    	
+                        <?php if( $on_facebook == false ){ ?>
+
+                        	<div class="small-5 large-4 columns">
+                                <ul class="social-links">
+                                    <li><a href="#" data-tooltip class="has-tip tip-top facebook" title="Facebook">Facebook</a></li>
+                                    <li><a href="#" data-tooltip class="has-tip tip-top twitter" title="Twitter">Twitter</a></li>
+                                    <li><a href="#" data-tooltip class="has-tip tip-top pinterest" title="Pinterest">Pinterest</a></li>
+                                    <li><a href="#" data-tooltip class="has-tip tip-top instagram" title="Instagram">Instagram</a></li>
+                                </ul>
+                        	</div>
+                
+                        <?php } ?>
+        
                         <div class="small-7 large-8 columns">
                             <form action="#">
                                 <div class="row collapse">
