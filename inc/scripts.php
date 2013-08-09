@@ -6,8 +6,8 @@
 	  }
 	  
 	  $('header').addClass('animated fadeIn');
-	  $('#content').addClass('animated fadeInUp');
-	  $('footer').addClass('animated fadeIn');
+	  $('#content').addClass('animated fadeInDown');
+	  $('#footer-id').addClass('animated fadeInUp');
 	  
   });
 </script>
