@@ -141,6 +141,15 @@ ul li {
 	right: -24px;
 }
 
+.reveal-modal {
+	z-index:9000;
+	padding:10px;
+}
+	
+.reveal-modal-bg {
+	z-index:8999;
+}
+
 .orbit-container {
 	background:none;
 }
@@ -846,7 +855,7 @@ h3.new-price {
    ----------------------------- */
 .inspire-content {
 	background:#fff;
-	padding:0px 20px 0px 20px;
+	height:580px; padding-left:30px;
 }
 
 #container {
@@ -854,8 +863,8 @@ h3.new-price {
 }
 
 .photo {
-	width: 220px;
-	margin: 0 0 10px 10px;
+	width:210px; 
+	margin:0px 0px 10px 0px;
 	padding: 0;
 }
 

@@ -1,16 +1,9 @@
-<div id='fb-root'></div>
-<script src="https://connect.facebook.net/es_ES/all.js"></script>
-<script>
-	window.fbAsyncInit = function() {
-		FB.init({
-			appId : '500663786683684', //app prueba
-			cookie : true // enable cookies to allow the server to access the session
-		});
-		
-		//FB.Canvas.setAutoGrow(100);
-		FB.Canvas.setSize({ height: 930 });
-	}
-</script>
+<?php 
+
+// [Change this to False/True if you want to hide/show Social Icons ]
+$isFacebook = true; 
+
+?>
 
 	<!-- Header -->
 	<header id="header">

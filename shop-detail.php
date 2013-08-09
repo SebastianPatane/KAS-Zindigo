@@ -1,4 +1,4 @@
-<?php include('inc/facebook-check.php'); ?>
+
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -83,7 +83,7 @@
                                   <option>2</option>
                                   <option>3</option>
                                 </select>
-                                <a href="#" class="sizes-guide">Size<br>Guide</a>
+                                <a href="#" class="sizes-guide" data-reveal-id="Size_Guide">Size<br>Guide</a>
                             </div>
                             <div class="large-12 columns">
                             	<!-- Product Thumbails -->
@@ -100,7 +100,7 @@
                             	<a href="#" class="small button add-cart-button">Add To Cart</a>
                             </div>
                             
-                            <?php /*[ Hide on Facebook App View ]*/ if(!$liked){ ?>
+                            <?php /*[ Hide on Facebook App View ]*/ if ( $isFacebook == false ){ ?>
                             <div class="large-5 columns">
                             	<div class="shop-share-links">
                             		<span>Share</span>
@@ -149,8 +149,26 @@
     
     
     <?php include('inc/footer.php'); ?>
-
 	
+  <div id="Size_Guide" class="reveal-modal small">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td>&nbsp;</td>
+        <td align="center">XS</td>
+        <td align="center">S</td>
+        <td align="center">M</td>
+        <td align="center">L</td>
+      </tr>
+      <tr>
+        <td><strong>Standard Sizes</strong></td>
+        <td align="center">0-2</td>
+        <td align="center">4-6</td>
+        <td align="center">8-10</td>
+        <td align="center">12-14</td>
+      </tr>
+    </table>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 
   <script>
   document.write('<script src=' +
@@ -163,6 +181,7 @@
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.forms.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
   
   <script>
     $(document).foundation();
