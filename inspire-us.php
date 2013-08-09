@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" type="text/css">
   <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
   <link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/app.css">
+  
 
   <script src="js/vendor/custom.modernizr.js"></script>
 

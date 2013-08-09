@@ -13,7 +13,7 @@
 </script>
 
 	<!-- Header -->
-	<header>
+	<header id="header">
     	
         <div class="row collapse">
         
@@ -90,3 +90,4 @@
         </div>
     </header>
     <!-- /Header -->
+    <div id="content"><!-- closes before footer, used for animations -->

@@ -1,3 +1,4 @@
+	</div><!-- closes #content, which opens after header -->
 	<!-- Footer Content -->
     <footer id="footer-id">
         <div class="row">
