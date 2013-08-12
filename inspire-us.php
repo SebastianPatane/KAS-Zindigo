@@ -29,11 +29,6 @@
 	  <div class="large-12 columns">
 		  	
             <div class="top-section-title">What Inspires Us</div>
-            
-        	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
-                
-                <li class="inspire-content">
                 
                     <div id="container01">
                         
@@ -113,95 +108,7 @@
 
                         
                     </div>
-                </li>
-                
-                
-                
-                
-                <li class="inspire-content">
-                
-                	<div id="container02">
-                
-                        <div class="photo" style="width:210px">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/01.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="photo" style="width:246px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/02.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="photo" style="width:425px">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/03.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="photo" style="width:210px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/04.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="photo" style="width:246px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/05.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-    
-                            <div class="photo" style="width:467px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/06.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            
-    
-                            <div class="photo" style="width:246px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/07.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="photo" style="width:169px;">
-                                <div class="view third-effect">
-                                    <img src="img/inspire-us/08.jpg"/>
-                                    <div class="mask">
-                                        <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        
-                    </div>
-                </li>
-
-          	</ul>
-                    
+               
 		</div>
 	</div>
     <!-- /Inspire Page Content -->

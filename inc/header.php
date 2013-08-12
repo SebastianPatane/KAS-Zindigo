@@ -1,7 +1,7 @@
 <?php 
 
 // [Change this to False/True if you want to hide/show Social Icons ]
-$isFacebook = true; 
+$isFacebook = false; 
 
 ?>
 
@@ -65,7 +65,7 @@ $isFacebook = true;
                 	<ul class="dropdown">
                         <li><a href="#">Bio</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Designer</a></li>
+                        <li><a href="designer.php">Designer</a></li>
                   	</ul>
                 </li>
                 <li class="divider"></li>
