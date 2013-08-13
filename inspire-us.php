@@ -123,7 +123,6 @@
 
   <script src="js/jquery-1.10.2.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
-  <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
   <script src="js/toucheffects.js"></script>
@@ -148,20 +147,6 @@
 			
     	});
 		// END Isotope Instance 01 //
-		
-		// Isotope Instance 02 //
-		$(function(){
-      		var $container = $('#container02');      
-			$container.isotope({
-			  itemSelector: '.photo',
-				 masonry: {
-					columnWidth: 20,
-					gutterWidth: 10
-				  }
-			});
-			
-    	});
-		// END Isotope Instance 02 //
 
   	});
 	

@@ -28,75 +28,32 @@
 		  	
             <div class="top-section-title">SHOP</div>
             
-        	<div class="preloader"></div>
-          	<ul data-orbit data-options="bullets:false; slide_number: false; pause_on_hover: false; timer: false">
-                
-                <!-- Orbit Slider Content -->
-                <li class="shop-slider-content">
-                	<div class="row">
-                    	<div class="large-6 columns text-center">
-                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><br><span>Lorem ipsum<br>$450</span>
+            		
+                    <div id="shop">
+                        
+                        <div class="shop-item shop-big">
+                        	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><br><span>Lorem ipsum<br>$450</span>
                         </div>
-                        <div class="large-6 columns">
-                        	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                            </ul>
+                        
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
                         </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                       
+                        
                     </div>
-                </li>
-                <!-- /Orbit Slider Content -->
+                    
+                    
                 
-                
-                
-                
-                <!-- Orbit Slider Content -->
-                <li class="shop-slider-content">
-                	<div class="row">
-                    	<div class="large-6 columns text-center">
-                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><span>Lorem ipsum<br>$450</span>
-                        </div>
-                        <div class="large-6 columns">
-                        	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <!-- /Orbit Slider Content -->
-                
-                
-                
-                
-                
-                <!-- Orbit Slider Content -->
-                <li class="shop-slider-content">
-                	<div class="row">
-                    	<div class="large-6 columns text-center">
-                   	    	<a href="shop-detail.php"><img src="img/shop-img-orbit.jpg"></a><br><span>Lorem ipsum<br>$450</span>
-                        </div>
-                        <div class="large-6 columns">
-                        	<ul class="large-block-grid-2 small-block-grid-2" id="images-shop-thumbails">
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                                <li class="text-center"><a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <!-- /Orbit Slider Content -->
-
-          	</ul>
-            
         </div>
-        
-
 	</div>
     <!-- /LookBook Page Content -->
     
@@ -110,13 +67,31 @@
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-	
+  
+  <script src="js/jquery-1.10.2.min.js"></script>	
   <script src="js/foundation/foundation.js"></script>
-  <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
     
   <script>
+  
+  	$(document).ready(function() {		
+		// Isotope Instance 01 //
+		$(function(){
+      		var $container = $('#shop');      
+			$container.isotope({
+			  itemSelector: '.shop-item',
+				 masonry: {
+					columnWidth: 240
+				  }
+			});
+			
+    	});
+		// END Isotope Instance 01 //
+
+  	});
+	
     $(document).foundation();
   </script>
   
