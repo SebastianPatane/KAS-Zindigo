@@ -65,7 +65,7 @@ $isFacebook = false;
                 	<ul class="dropdown">
                         <li><a href="#">Bio</a></li>
                         <li class="divider"></li>
-                        <li><a href="designer.php">Designer</a></li>
+                        <li><a href="javascript:void(0)" onclick="Show_Designer();">Designer</a></li>
                   	</ul>
                 </li>
                 <li class="divider"></li>

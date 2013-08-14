@@ -88,10 +88,10 @@
                             <div class="large-12 columns">
                             	<!-- Product Thumbails -->
                             	<div id="images-shop-thumbails">
-                                    <img src="http://placehold.it/70x70">
-                                    <img src="http://placehold.it/70x70">
-                                    <img src="http://placehold.it/70x70">
-                                    <img src="http://placehold.it/70x70">
+                                    <img src="http://placehold.it/70x70" big-size="http://placehold.it/400x550">
+                                    <img src="http://placehold.it/70x70" big-size="http://placehold.it/400x550">
+                                    <img src="http://placehold.it/70x70" big-size="http://placehold.it/400x550">
+                                    <img src="http://placehold.it/70x70" big-size="img/shop-img-detail.jpg">
                                 </div>
                                 <!-- Ship message -->
                                 <span class="shipping-note">(Usually ships in 2 to 5 business days)</span>
@@ -176,7 +176,8 @@
   '.js><\/script>')
   </script>
 
-  <script src="js/jquery-1.10.2.min.js"></script>		
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.forms.js"></script>
@@ -188,7 +189,7 @@
 	
 	$(document).ready(function () {
 		$("#images-shop-thumbails img").click(function () {
-			var changeSrc = $(this).attr("src");
+			var changeSrc = $(this).attr("big-size");
 			var changeAlt = $(this).attr("alt");
 			$("#big-image img").fadeOut("fast");
 			$("#big-image img").attr("src", changeSrc);

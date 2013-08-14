@@ -33,77 +33,35 @@
                     <div id="container01">
                         
                         <div class="photo" style="width:210px">
-                            <div class="view third-effect">
-                                <img src="img/inspire-us/01.jpg"/>
-                                <div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                            </div>
+                             <a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/01.jpg"/></a>
                         </div>
                         
                         <div class="photo" style="width:246px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/02.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/02.jpg"/></a>
                         </div>
                         
                         <div class="photo" style="width:425px">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/03.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/03.jpg"/></a>
                         </div>
                         
                         <div class="photo" style="width:210px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/04.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/04.jpg"/></a>
                         </div>
                         
                         <div class="photo" style="width:246px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/05.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/05.jpg"/></a>
                         </div>
                         
-
                         <div class="photo" style="width:467px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/06.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/06.jpg"/></a>
                         </div>
-                        
 
                         <div class="photo" style="width:246px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/07.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/07.jpg"/></a>
                         </div>
 
                         <div class="photo" style="width:169px;">
-                        	<div class="view third-effect">
-                        		<img src="img/inspire-us/08.jpg"/>
-                        		<div class="mask">
-                                    <span><a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery">This is a rollover caption.</a></span>
-                                </div>
-                        	</div>
+                        	<a href="img/popup-img.jpg" class="fancybox" rel="inspire-gallery"><img src="img/inspire-us/08.jpg"/></a>
                         </div>
 
                         
@@ -122,9 +80,11 @@
   </script>
 
   <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
   <script src="js/toucheffects.js"></script>
   <script src="source/jquery.fancybox.js?v=2.1.5"></script>
   <script src="js/jquery.isotope.min.js"></script>
@@ -132,7 +92,16 @@
   <script type="text/javascript">
    	$(document).ready(function() {
 
-		$('.fancybox').fancybox();
+		//$('.fancybox').fancybox();
+		
+		$('.fancybox').fancybox({
+			  arrows : false,
+			  helpers : {
+				  overlay : {
+						locked : false
+					}
+			  }
+		  });
 		
 		// Isotope Instance 01 //
 		$(function(){

@@ -53,10 +53,13 @@
   '.js><\/script>')
   </script>
 	
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
     
   <script>
     $(document).foundation();

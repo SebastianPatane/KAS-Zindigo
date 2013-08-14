@@ -47,6 +47,30 @@
                         <div class="shop-item">
                         	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
                         </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
+                        <div class="shop-item">
+                        	<a href="#"><img src="http://placehold.it/180x240"></a><br><span>Lorem ipsum<br>$450</span>
+                        </div>
                        
                         
                     </div>
@@ -68,10 +92,12 @@
   '.js><\/script>')
   </script>
   
-  <script src="js/jquery-1.10.2.min.js"></script>	
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
   <script src="js/jquery.isotope.min.js"></script>
     
   <script>

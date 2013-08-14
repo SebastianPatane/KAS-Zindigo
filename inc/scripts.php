@@ -9,5 +9,19 @@
 	  $('#content').addClass('animated fadeInDown');
 	  $('#footer-id').addClass('animated fadeInUp');
 	  
+	  // jQuery Custom Scroll Bars
+	  $(".designer-content").mCustomScrollbar({
+		  theme:"dark-thick",
+		  scrollInertia: 1000
+	  });
+	  
   });
+  
+  
+  // Fire Reveal Modal with Scroll Query
+  function Show_Designer() {
+	  $('#designer-interview').foundation('reveal', 'open');
+	  setTimeout(function(){$(".designer-content").mCustomScrollbar("update");},500)
+  }
+	
 </script>

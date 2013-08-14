@@ -48,3 +48,32 @@
         </div>
     </footer>
     <!-- /Footer Content -->
+    
+    
+    <!-- DESIGNER REVEAL -->
+    <div id="designer-interview" class="reveal-modal small">
+      		
+            <div class="top-section-title lightbox">Designer Interview</div>
+    		
+            <div class="designer-content">
+            
+            <img src="../img/designer-img01.jpg" alt="Designer Interview" />
+            
+            <h1>Can you give us a bit of background on you and when you started your brand and why?</h1>
+            <hr>
+            <p>Being fashionable and enterprising were organic traits that were instilled in me since day one.<br>I was raised by parents who were self-taught designers and merchants.  I was brought up in an environment of fabrics/prints and profits/losses.  Even our vacations revolved around foreign manufacturing locations or market opportunities.  It was this encompassing environment that subconsciously planted the seed for fashion and flair, which led me to eventually leave the life of investment banking to pursue my passion in the arts.  While at school I exceled in finance, and post-graduation, like most of the students at university in the States, I lined up eager and ready to sacrifice everything in order to obtain a position with high powered investment bank.  By recruiting and hiring me, JP Morgan gave me the greatest gift, the gift of insight.  Even though I loved my time there and I made lifelong friendships, the greatest thing I learned at Morgan was that I had no real desire to be a part of the masters of the universe.  Faith had another path for me, and it wasn’t Finance it was Fashion.  It’s funny looking back now I feel fortunate I was able to find what I love and have the courage to follow it. </p>
+
+            <h1>What inspires you and your work?</h1>
+            <hr>
+            <p>I get this all the time. “How do you come up with these designs?  Where did this technique derive from?”  And I guess the honest answer is through perseverance. Art, travel, culture, nature and historical designers all play a roll in my thought process, but at the end of the day my constant driving force is her. I love seeing her wearing KAS and bringing my canvas to life. The most vibrant prints and intricate cutwork don’t compare to her rocking my outfit. </p>
+
+            <h1>What is the most difficult aspect of running your own label?</h1>
+            <hr>
+            <p>Often times I find myself not able to spend as much time as I would like in the creative and design process, which I enjoy the most; as I am too busy running the business. </p>
+            
+            </div>
+            
+            <a class="close-reveal-modal">&#215;</a>          
+            
+    </div>
+    <!-- /DESIGNER REVEAL -->
