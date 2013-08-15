@@ -1378,7 +1378,11 @@ h2 {
 }
 
 #fancybox-buttons.top {
-	top: 120px;
+	/*top: 120px;*/
+
+    top: auto;
+    bottom: 20px;
+
 }
 	
 /* HEADER SETTINGS
