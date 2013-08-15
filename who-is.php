@@ -28,7 +28,7 @@
 		  	
             <div class="top-section-title">WHO IS KAS?</div>
             
-        	<div class="row collapse">
+        	<div class="row collapse who-is">
             	<div class="large-12 columns">
             	  <img src="img/whois-img-kas.jpg" alt="Who is KAS" class="large-5  left who-is-kas">
             	  

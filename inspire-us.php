@@ -91,8 +91,6 @@
 
   <script type="text/javascript">
    	$(document).ready(function() {
-
-		//$('.fancybox').fancybox();
 		
 		$('.fancybox').fancybox({
 			  arrows : false,
@@ -120,6 +118,8 @@
   	});
 	
 	$(document).foundation();
+	
+	$(window).load(function(){$('#container01').isotope('reLayout');});
   
   </script>
   

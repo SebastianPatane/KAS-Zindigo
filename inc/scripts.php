@@ -20,7 +20,7 @@
   
   // Fire Reveal Modal with Scroll Query
   function Show_Designer() {
-	  $('#designer-interview').foundation('reveal', 'open');
+	  $('#designer-interview').foundation('reveal', 'open', {animation: 'fade'});
 	  setTimeout(function(){$(".designer-content").mCustomScrollbar("update");},500)
   }
 	

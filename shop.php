@@ -119,6 +119,9 @@
   	});
 	
     $(document).foundation();
+	
+	$(window).load(function(){$('#shop').isotope('reLayout');});
+	
   </script>
   
   <?php include('inc/scripts.php'); ?>

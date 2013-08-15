@@ -51,7 +51,7 @@
     
     
     <!-- DESIGNER REVEAL -->
-    <div id="designer-interview" class="reveal-modal small">
+    <div id="designer-interview" class="reveal-modal small lightbox-interview">
       		
             <div class="top-section-title lightbox">Designer Interview</div>
     		
