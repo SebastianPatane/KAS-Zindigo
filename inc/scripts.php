@@ -5,9 +5,9 @@
 		  $("#footer-id").addClass("relative");
 	  }
 	  
-	  $('header').addClass('animated fadeIn');
+	  /*$('header').addClass('animated fadeIn');
 	  $('#content').addClass('animated fadeInDown');
-	  $('#footer-id').addClass('animated fadeInUp');
+	  $('#footer-id').addClass('animated fadeInUp');*/
 	  
 	  // jQuery Custom Scroll Bars
 	  $(".designer-content").mCustomScrollbar({

@@ -27,7 +27,7 @@
 	  <div class="large-12 columns">
             
         	<div class="row collapse contact-page">
-            	<div class="large-5 columns large-offset-1">
+            	<div class="large-6 columns customer-fix">
                 		
                         <div class="row">
                         	
@@ -77,18 +77,12 @@
                             <div class="large-12 columns contact-corporate">
                             	<h3>Corporate Office</h3>
                                 <p>
-                                  <span class="corporate">
-                                  PRESS - 
-                                  <a class="phone" href="tel:6466829020">646.682.9020</a>
-                                  </span> 
+                                  <span class="corporate"> PRESS <a class="phone" href="tel:6466829020">646.682.9020</a></span> 
                                   
-                                  <span class="corporate">SALES - 
-                                    <a class="phone"  href="tel:6466829020">646.682.9020</a>
-                                  </span> 
-                                  <span class="corporate">GENERAL -  
-                                    <a class="phone" href="tel:6466829020">646.682.9020</a>
-                                    </span>
-                                  </p>
+                                  <span class="corporate">SALES <a class="phone"  href="tel:6466829020">646.682.9020</a></span> 
+                                  
+                                  <span class="corporate">GENERAL <a class="phone" href="tel:6466829020">646.682.9020</a></span>
+                                </p>
                             </div>
                         
                         </div>

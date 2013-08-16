@@ -183,17 +183,20 @@
   <script src="js/foundation/foundation.forms.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
   <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/jquery.scrollto.js"></script>
   
   <script>
     $(document).foundation();
 	
 	$(document).ready(function () {
+
 		$("#images-shop-thumbails img").click(function () {
 			var changeSrc = $(this).attr("big-size");
 			var changeAlt = $(this).attr("alt");
 			$("#big-image img").fadeOut("fast");
 			$("#big-image img").attr("src", changeSrc);
 			$("#big-image img").fadeIn("fast");
+			$.scrollTo('#big-image','#big-image');
 			var changeAlt = $(this).attr("alt");
 		});
 	}); 
