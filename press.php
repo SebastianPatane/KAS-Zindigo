@@ -36,16 +36,210 @@
                 <!-- List Content -->
                 <li class="trendsetting-content">
                 	<ul class="text-center">
-                    	<li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
-                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)"><a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="imgs"><img src="http://www.kasnewyork.com/images/press/53c.jpg"></a></li>
+                    	
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press01" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press01"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press01"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press01"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press01"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press02" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press02"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press02"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press02"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press02"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press03" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press03"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press03"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press03"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press03"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press04" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press04"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press04"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press04"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press04"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press05" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press05"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press05"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press05"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press05"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press06" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press06"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press06"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press06"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press06"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press07" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press07"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press07"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press07"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press07"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press08" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press08"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press08"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press08"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press08"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press09" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press09"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press09"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press09"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press09"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        <li class="thumbnailpress" style="background-image:url(http://www.kasnewyork.com/images/press/53s.jpg)">
+                        	
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	<a href="http://www.kasnewyork.com/images/press/53.jpg" class="fancybox" rel="press10" data-hover="imgs">
+                            <img src="http://www.kasnewyork.com/images/press/53c.jpg">
+                            </a>
+                            <!-- This are the images used in the hover effect inside slider -->
+                        	
+                            <!-- Other hiden images that will display only in fancybox lightbox -->
+                            <div class="press-gallery">
+                                <a href="img/contact-img.jpg" class="fancybox" rel="press10"><img src="img/contact-img.jpg"></a>
+                                <a href="img/designer-img01.jpg" class="fancybox" rel="press10"><img src="img/designer-img01.jpg"></a>
+                                <a href="img/designer-img02.jpg" class="fancybox" rel="press10"><img src="img/designer-img02.jpg"></a>
+                                <a href="img/home-shop-img04.jpg" class="fancybox" rel="press10"><img src="img/home-shop-img04.jpg"></a>
+                            </div>
+                            <!-- /Other hiden images that will display only in fancybox lightbox -->
+                        
+                        </li>
+                        
+                        
+                        
+                        
 					</ul>
                 </li>
                 <!-- List Content -->
@@ -102,7 +296,7 @@
 		$(document).ready(function() {
 			$('.fancybox').fancybox();
 			
-			$("a[rel=imgs]").hover(function() {
+			$("a[data-hover=imgs]").hover(function() {
 				$(this).find('img').animate({opacity: 0}, 150);
 				}, function() {
 				$(this).find('img').animate({opacity: 1}, 150);

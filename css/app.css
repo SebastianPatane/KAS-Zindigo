@@ -1308,6 +1308,9 @@ h3.new-price {
 	position:relative;
 }
 
+.press-gallery {
+	display:none;
+}
 
 /* SHARE SETTINGS
    ----------------------------- */
